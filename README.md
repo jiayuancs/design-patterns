@@ -21,4 +21,6 @@
   - [Template Method](./template_method/)
   - [Strategy](./strategy/)
   - [Observer/Event](./observer/)
-
+- 单一职责
+  - [Decorator](./decorator/)
+  - [bridge](./bridge/)
