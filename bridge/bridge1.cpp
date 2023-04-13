@@ -1,3 +1,4 @@
+// 通信
 class Messager {
 public:
   virtual void Login(string username, string password) = 0;
@@ -48,6 +49,7 @@ public:
 
 // 业务抽象
 
+// 精简版(Lite)
 class PCMessagerLite : public PCMessagerBase {
 public:
   virtual void Login(string username, string password) {
@@ -67,7 +69,7 @@ public:
 class PCMessagerPerfect : public PCMessagerBase {
 public:
   virtual void Login(string username, string password) {
-    PCMessagerBase::PlaySound();
+    PCMessagerBase::PlaySound();  // 登录时播放一段声音，下同
     //********
     PCMessagerBase::Connect();
     //........

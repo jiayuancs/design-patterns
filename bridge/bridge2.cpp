@@ -2,6 +2,7 @@ class Messager {
 protected:
   MessagerImp* messagerImp;  //...
 public:
+  // 抽象部分（业务功能）
   virtual void Login(string username, string password) = 0;
   virtual void SendMessage(string message) = 0;
   virtual void SendPicture(Image image) = 0;
@@ -9,6 +10,7 @@ public:
   virtual ~Messager() {}
 };
 
+// 平台实现部分
 class MessagerImp {
 public:
   virtual void PlaySound() = 0;
