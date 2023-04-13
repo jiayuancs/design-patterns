@@ -24,3 +24,8 @@
 - 单一职责
   - [Decorator](./decorator/)
   - [Bridge](./bridge/)
+- 对象创建
+  - [Factory Method](./factory_method/)
+  - [Abstract Factory](./abstract_factory/)
+  - [Prototype](./prototype/)
+  - [Builder](./builder/)
