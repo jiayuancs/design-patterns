@@ -29,3 +29,24 @@
   - [Abstract Factory](./abstract_factory/)
   - [Prototype](./prototype/)
   - [Builder](./builder/)
+- 对象性能
+  - [Singleton](./singleton/)
+  - [Flyweight](./flyweight/)
+- 接口隔离
+  - [Facade](./facade/)
+  - [Proxy](./proxy/)
+  - [Mediator](./mediator/)
+  - [Adapter](./adapter/)
+- 状态变化
+  - [Memento](./memento/)
+  - [State](./state/)
+- 数据结构
+  - [Composite](./composite/)
+  - [Iterator](./iterator/)
+  - [Chain of Resposibility](./chain_of_resposibility/)
+- 行为变化
+  - [Command](./command/)
+  - [Visitor](./visitor/)
+- 领域问题
+  - [Interpreter](./interpreter/)
+
