@@ -1,21 +1,30 @@
 class SubSystem1 {
-  void Compile();
+  void Compile1();
+  void Compile2();
 };
 
 class SubSystem2 {
-  void Assemble();
+  void Assemble1();
+  void Assemble2();
 };
 
 class SubSystem3 {
-  void Link();
+  void Link1();
+  void Link2();
 }
 
 class Facade {
 public:
-  void Method() {
-    sub_system_1_.Compile();
-    sub_system_2_.Assemble();
-    sub_system_3_.Link();
+  void Method1() {
+    sub_system_1_.Compile1();
+    sub_system_2_.Assemble2();
+    sub_system_3_.Link1();
+  }
+
+  void Method2() {
+    sub_system_1_.Compile1();
+    sub_system_2_.Assemble2();
+    sub_system_3_.Link3();
   }
 
 private:
@@ -26,6 +35,6 @@ private:
 
 int main() {
   Facade facade;
-  facade.Method();
+  facade.Method1();
   return 0;
 }
