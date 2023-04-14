@@ -19,6 +19,7 @@ protected:
 
 class StoneHouse : public House {};
 
+// 各部件的构造过程
 class StoneHouseBuilder : public HouseBuilder {
 protected:
   virtual void BuildPart1() {
@@ -31,7 +32,7 @@ protected:
 };
 
 
-// 负责指导建造者如何构建产品的类
+// 指导者：各部件的装配过程
 class HouseDirector {
 public:
   HouseBuilder* pHouseBuilder;
