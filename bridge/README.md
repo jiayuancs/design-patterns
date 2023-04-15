@@ -28,7 +28,7 @@ graph BT
 
 ```mermaid
 graph BT
-	PCMessagerTmp --> MessagerImp
+	PCMessagerImp --> MessagerImp
     MobileMessagerImp --> MessagerImp
     MessagerLite --> Messager
     MessagerPerfect --> Messager
