@@ -25,6 +25,7 @@ public:
   void execute() override { cout << "#2 process..." << arg << endl; }
 };
 
+// 宏命令：将多个命令组合
 // Composite模式
 class MacroCommand : public Command {
   vector<Command *> commands;

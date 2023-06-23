@@ -33,6 +33,7 @@ protected:
 
 
 // 指导者：各部件的装配过程
+// 当不是很复杂时，可以将HouseDirector与HouseBuilder合并
 class HouseDirector {
 public:
   HouseBuilder* pHouseBuilder;

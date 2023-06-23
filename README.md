@@ -17,6 +17,8 @@
 
 ## 从封装变化角度对模式分类
 
+引例：[Introduction](./introduction/)
+
 - 组件协作
   - [Template Method](./template_method/)
   - [Strategy](./strategy/)

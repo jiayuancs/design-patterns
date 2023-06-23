@@ -33,7 +33,7 @@ protected:
 };
 
 // 石头房
-class StoneHouse {
+class StoneHouse : public House {
 protected:
   virtual void BuildPart1() {}
   virtual void BuildPart2() {}
